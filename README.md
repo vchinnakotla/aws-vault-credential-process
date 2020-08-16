@@ -26,5 +26,5 @@ mfa_serial=arn:aws:iam::1234567890:mfa/foo@bar.com
 e.g aws s3 ls --profile foo-dev
 
 ### tested with
-aws-cli v2.0.28
-aws-vault v6.0.0
+[aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html Installing the AWS CLI) v2.0.28
+[aws-vault](https://github.com/99designs/aws-vault AWS Vault is a tool to securely store and access AWS credentials in a development environment) v6.0.0
