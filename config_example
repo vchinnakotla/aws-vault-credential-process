@@ -1,0 +1,8 @@
+[profile foo]
+credential_process = /home/user/aws-vault-credential-process/credentials.sh foo parameterWithoutSpaces "parameter with spaces"
+mfa_serial=arn:aws:iam::1234567890:mfa/foo@bar.com
+
+[profile foo-dev]
+source_profile=foo
+role_arn=arn:aws:iam::0987654321:role/administrator
+mfa_serial=arn:aws:iam::1234567890:mfa/foo@bar.com
